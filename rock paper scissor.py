@@ -9,7 +9,7 @@ from random import randint,random
 choice=['rock','paper','scissor']
 score1=0
 score2=0
-print('1 is rock  \n 2 is paper  \n3 is scissor')
+print('0 is rock  \n 1 is paper  \n2 is scissor')
 while score1!=4 and score2!=4:
     
     player1=choice[int(input())]
